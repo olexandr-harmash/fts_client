@@ -1,0 +1,29 @@
+.main-deal h4 {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-deal__nav {
+    margin-left: auto;
+}
+
+.main-deal__nav button {
+    padding: 0 8px 0 8px;
+}
+
+.main-deal__nav svg {
+    width: 25px;
+    height: 25px;
+}
+
+.main-deal__top-wrapper {
+    margin: 8px 0 24px 0;
+}
+
+.main-deal__deal-offer-wrapper {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}

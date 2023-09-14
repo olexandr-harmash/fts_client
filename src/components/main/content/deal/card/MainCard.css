@@ -1,0 +1,105 @@
+.main-card-wrapper {
+    height: 100%;
+    width: 198.75px;
+    padding: 16px;
+
+    position: relative;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.main-card__faivorite {
+    width: 18px;
+    height: 18px;
+
+    position: absolute;
+
+    top: 24px;
+    right: 24px;
+}
+
+.main-card__faivorite svg {
+    width: inherit;
+    height: inherit;
+}
+
+@media (min-width: 1200px) {
+    .main-card-wrapper {}
+}
+
+.main-card__img-wrapper {
+    width: 166.75px;
+    height: 142.439px;
+
+    padding: 8px;
+}
+
+.main-card__raiting-wrapper {
+    height: 9.5px;
+}
+
+.main-card__raiting-wrapper img {
+    float: left;
+    height: 9.3px;
+    width: 10px;
+
+    margin-right: 4px;
+}
+
+.main-card__name {
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.main-card__price-weight-wrapper {
+    color: #27901a;
+    font-size: 18px;
+}
+
+.main-card__currency{
+    color: #adb5bd !important;
+    font-size: 10px;
+    padding-right: 1px;
+}
+
+.main-card__weight {
+    font-size: 10px;
+    margin-left: auto;
+    color: #adb5bd !important;
+    letter-spacing: 0.2px;
+}
+
+.main-card__counter-wrapper {
+    margin: 24px 0 8px 0;
+}
+
+.main-card__counter-wrapper * {
+    border-radius: 4px;
+
+    font-weight: 600;
+}
+
+.main-card__counter-wrapper button{
+    width: 35px;
+    height: 35px;
+
+    background-color: #f5f5f5f1;
+}
+
+.main-card__counter-wrapper input{
+    width: 35px;
+    height: 35px;
+
+    text-align: center;
+
+    margin: 0 4px 0 4px;
+
+    border: 1px solid #adb5bd;
+}
+

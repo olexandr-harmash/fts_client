@@ -1,0 +1,96 @@
+.offer-list-wrapper {
+    width: 260px;
+    height: auto;
+
+    background-color: white;
+
+    padding: 16px;
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.offer-list__header-wrapper {
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+}
+
+/**
+*   Make one react arrow component
+*/
+.text-ending_double-arrow {}
+
+.text-ending_double-arrow::after {
+    content: "";
+
+    padding-top: 2px;
+
+    background-size: 10px 10px;
+    background-image: url(https://img.icons8.com/ios/50/collapse-arrow--v1.png);
+
+    width: 10px;
+    height: 10px;
+
+    float: right;
+
+    transform: rotate(90deg);
+}
+
+.offer-list__field {
+    margin-bottom: 16px;
+    letter-spacing: -0.4px;
+    color: #212529 !important;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.offer-list__img-wrapper {
+    width: 77px;
+    height: 99px;
+
+    padding: 16px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+.offer-list__info-wrapper {
+    width: 150.500px;
+    height: auto;
+
+    padding-left: 15px;
+
+    justify-content: space-around;
+}
+
+.offer-list__price {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.offer-list__weight {
+    color: #adb5bd !important;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.offer-list__price-currency {
+    color: #adb5bd !important;
+    font-size: 10px;
+    padding-right: 1px;
+}
+
+.offer-list__price {
+    color: #27901a;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+}
