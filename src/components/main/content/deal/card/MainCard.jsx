@@ -25,7 +25,7 @@ class MainCard extends Component {
                 </div>
                 <h2 className="main-card__name">
                     <a href="http://localhost:3000">
-                        Apis Mixed Fruit Jam
+                        {this.props.name}
                     </a>
                 </h2>
                 <div className="main-card__price-weight-wrapper">

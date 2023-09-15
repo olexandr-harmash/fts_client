@@ -1,0 +1,1 @@
+export {getAllProposition} from './catalog';

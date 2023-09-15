@@ -1,8 +1,25 @@
 import { Component } from "react";
 import "./MainDeal.css";
-import {MainCard} from "../.."
+import { MainCard } from "../.."
+import { getAllProposition } from "services";
 
 class MainDeal extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            goods: []
+        };
+    }
+
+    componentDidMount() {
+        getAllProposition().then(data => {
+            this.setState({
+                goods: data.value._value
+            });
+        });
+    };
+
     render() {
         return (
             <div className="main-deal-wrapper">
@@ -26,10 +43,13 @@ class MainDeal extends Component {
                     </div>
                     <div className="main-deal__deal-offer-wrapper">
                         <div className="row">
-                            <MainCard></MainCard>
-                            <MainCard></MainCard>
-                            <MainCard></MainCard>
-                            <MainCard></MainCard>
+                            {this.state.goods.length > 0 && (
+                                <>
+                                    {this.state.goods.map(good => (
+                                        <MainCard key={good.propos_id} name={good.propos_name}></MainCard>
+                                    ))}
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>
